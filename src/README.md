@@ -1,0 +1,28 @@
+# Spring 핵심 기본 원리
+- Spring
+- SpringBoot 와의 차이점
+- SOLID
+  - 단일 책임 원칙
+  - 개방 폐쇄 원칙
+  - 리스코프 치환 원칙
+  - 인터페이스 분리 원칙
+  - 의존성 역전 원칙
+- IoC
+- DI
+- Spring Container
+  - 자바 코드 방식
+  - XML 방식
+- Spring Bean
+- BeanFactory
+- ApplicationContext
+- BeanDefinition
+- Singleton Pattern
+- Singleton Container
+- Component Scan
+  - @ComponentScan 은 @Component 가 붙은 모든 클래스를 스프링 빈으로 등록한다.
+  - @Component : 컴포넌트 스캔에서 사용
+    - @Controller : 스프링 MVC 컨트롤러에서 사용
+    - @Service : 스프링 비즈니스 로직에서 사용
+    - @Repository : 스프링 데이터 접근 계층에서 사용 `@Configuration` : 스프링 설정 정보에서 사용
+- @Autowired 
+  - 자동 의존관계 주입

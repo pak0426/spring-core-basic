@@ -2,7 +2,9 @@ package mini.corebasic.discount;
 
 import mini.corebasic.member.Grade;
 import mini.corebasic.member.Member;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RateDiscountPolicy implements DiscountPolicy {
 
     private final int discountPercent = 10;
