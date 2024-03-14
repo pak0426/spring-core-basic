@@ -26,3 +26,21 @@
     - @Repository : 스프링 데이터 접근 계층에서 사용 `@Configuration` : 스프링 설정 정보에서 사용
 - @Autowired 
   - 자동 의존관계 주입
+- 의존관계 주입 방법
+  - 생성자 주입
+  - 수정자 주입(setter 주입) 
+  - 필드 주입
+  - 일반 메서드 주입
+- lombok
+  - @RequiredArgsConstructor
+- 조회 대상 빈이 2개 이상일 때 해결 방법
+  - @Autowired 필드 명 매칭
+  - @Qualifier -> @Qualifier끼리 매칭 -> 빈 이름 매칭 
+  - @Primary 사용
+- 빈 생명주기 콜백
+  - 인터페이스(InitializingBean, DisposableBean) 설정 정보에 초기화 메서드
+  - 종료 메서드 지정 @PostConstruct
+  - @PreDestroy 애노테이션 지원
+- 빈 스코프
+  - 싱글톤 스코프 빈 vs 프로토타입 스코프 빈
+  - 웹 스코프
